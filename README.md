@@ -1,5 +1,4 @@
-# Упражнения из книги Антона Холомьёва "[Учебник по Haskell](http://anton-k.github.io/ru-haskell-book/book/home.html)"
+# Here all my haskell exercises from several books
 
-Здесь лежат решенные упражнения и практика.
-
-Я знаю еще одно репо с решениями – https://github.com/dmi3s/ru-haskell-book-exercises
+1. `ru_holomev_book` - book from russian haskeller Anton Holomev "[Учебник по Haskell](http://anton-k.github.io/ru-haskell-book/book/home.html)"
+2. `ru_rwh` - [Real World Haskell](http://book.realworldhaskell.org/)
