@@ -1,0 +1,60 @@
+Prelude> 5 + 8
+13
+Prelude> :t 5 + 8
+5 + 8 :: Num a => a
+Prelude> 3 * 5 + 8
+23
+Prelude> :t 3 * 5 + 8
+3 * 5 + 8 :: Num a => a
+Prelude> 2 + 4
+6
+Prelude> :t 2 + 4
+2 + 4 :: Num a => a
+Prelude> (+) 2 4
+6
+Prelude> :t (+) 2 4
+(+) 2 4 :: Num a => a
+Prelude> sqrt 16
+4.0
+Prelude> :t sqrt 16
+sqrt 16 :: Floating a => a
+Prelude> succ 6
+7
+Prelude> :t succ 6
+succ 6 :: (Num a, Enum a) => a
+Prelude> succ 7
+8
+Prelude> :t succ 7
+succ 7 :: (Num a, Enum a) => a
+Prelude> pred 9
+8
+Prelude> :t pred 9
+pred 9 :: (Num a, Enum a) => a
+Prelude> pred 8
+7
+Prelude> :t pred 8
+pred 8 :: (Num a, Enum a) => a
+Prelude> sin (pi / 2)
+1.0
+Prelude> :t sin (pi / 2)
+sin (pi / 2) :: Floating a => a
+Prelude> truncate pi
+3
+Prelude> :t truncate pi
+truncate pi :: Integral b => b
+Prelude> round 3.5
+4
+Prelude> :t round 3.5
+round 3.5 :: Integral b => b
+Prelude> round 3.4
+3
+Prelude> :t round 3.4
+round 3.4 :: Integral b => b
+Prelude> floor 3.7
+3
+Prelude> :t floor 3.7
+floor 3.7 :: Integral b => b
+Prelude> ceiling 3.3
+4
+Prelude> :t ceiling 3.3
+ceiling 3.3 :: Integral b => b
