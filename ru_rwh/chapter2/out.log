@@ -1,0 +1,16 @@
+*Main> lastButOne "a"
+*** Exception: List does not have enough elements
+*Main> lastButOne "as"
+'a'
+*Main> lastButOne []
+*** Exception: List is empty
+*Main> lastButOne "asdf"
+'d'
+*Main> lastButOne' "a"
+*** Exception: List does not have enough elements
+*Main> lastButOne' "as"
+'a'
+*Main> lastButOne' "asdf"
+'d'
+*Main> lastButOne' []
+*** Exception: List is empty
