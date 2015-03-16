@@ -1,3 +1,5 @@
+import Data.Foldable (foldl', foldr')
+
 myLength :: [a] -> Int
 myLength = foldr (\_ acc -> acc + 1) 0
 
