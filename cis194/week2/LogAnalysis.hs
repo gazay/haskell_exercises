@@ -3,6 +3,9 @@ module LogAnalysis where
 
 import Log
 
+parse :: String -> [LogMessage]
+parse file = map parseMessage (lines file)
+
 parseMessage :: String -> LogMessage
 parseMessage line = let (t,rest) = parseType line
                         (stamp,msg) = break (== ' ') . tail $ rest
