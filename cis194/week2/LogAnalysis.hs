@@ -6,6 +6,7 @@ import Log
 parse :: String -> [LogMessage]
 parse file = map parseMessage (lines file)
 
+-- TODO: rewrite with words instead of break
 parseMessage :: String -> LogMessage
 parseMessage line = let (t,rest) = parseType line
                         (stamp,msg) = break (== ' ') . tail $ rest
